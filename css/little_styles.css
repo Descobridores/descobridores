@@ -70,8 +70,34 @@ input {
 
   position: relative;
   top: 4px;
+  outline: none;
 }
 
 input:checked {
   border: 6px solid #88c4ff;
+  outline: none;
+}
+
+button,
+legend {
+  color: #ffffff;
+  background-color: #88c4ff;
+  padding: 5px 10px;
+  border-radius: 20px;
+  border: 0;
+  font-size: 14px;
+  outline: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button:hover,
+button:focus {
+  background-color: #3298ff;
+  outline: none;
+}
+
+button:active {
+  background-color: white;
+  color: black;
+  outline: none;
 }
